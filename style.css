@@ -1,0 +1,262 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body, html {
+	height: 100%;
+	font-family: Arial, Verdana, sans-serif;
+}
+
+header {
+	width: 100%;
+	height: 60px;
+	background-color: #2E2E2E;
+}
+
+header p {
+	text-align: right;
+	color: white; 
+	padding-top: 15px;
+	padding-right: 40px;
+}
+
+header i {margin-left: 20px;}
+
+header a {
+	text-decoration: none;
+	color: white;
+}
+
+.portada {
+	width: 1424px;
+	height: 500px;
+	background-image: url(../img/portada2.jpg);
+	background-attachment: contain;
+}
+
+#textp {
+	position: absolute;
+	width: 450px;
+	height: 120px;
+	background-color: rgba(255, 255, 255, 0.7);
+	text-align: center;
+	margin: 140px 0 0 500px;
+	padding: 50px 20px 0 20px;
+	box-shadow: 0 4px 12px rgba(0,0,0,0.7);
+}
+
+#textp {font-weight: bolder;}
+
+#textp h2 {
+	line-height: 40px;
+	font-size: 1.2em;
+	font-weight: lighter;
+}
+
+.menu {
+	width: 100%;
+	background-color: #2E2E2E;
+}
+
+.menu ul {
+	font-size: 0;
+	list-style-type: none;
+}
+
+.menu ul li {
+	font-family: "Open Sans", sans-serif;
+	font-size: 1rem;
+	font-weight: 400;
+	color: #FAFAFA;
+	display: inline-block;
+	padding: 15px;
+	position: relative;
+}
+
+.menu ul li ul {
+	display: none;
+	z-index: 1;
+}
+
+.menu a {
+	text-decoration: none;
+	color: #FAFAFA;
+}
+
+.menu ul li:hover {
+	cursor: pointer;
+	background-color: #6E6E6E;
+}
+
+.menu ul li:hover ul {
+	display: block;
+	margin-top: 15px;
+	width: 200px;
+	left: 0;
+	padding: 0px 15px 0px 0px;
+	position: absolute;
+}
+
+.menu ul li:hover ul li {
+	display: block;
+	background-color: #2E2E2E;
+}
+
+.menu ul li:hover ul li:hover {
+	background-color: #6E6E6E;
+}
+
+.lateral {
+	width: 20%;
+	height: 1207px;
+	position: absolute;;
+}
+
+.logo {
+	width: 250px;
+	height: 250px;
+	padding-right: 10px;
+
+}
+
+.lateral h3 {
+	padding-left: 20px;
+}
+
+.rrss i {
+	width: 20%;
+	padding-top: 60px;
+	padding-left: 120px;
+	padding-bottom: 5px;
+}
+
+.rrss p {
+	width: 20%;
+	text-align: center;
+	padding-left: 105px;
+}
+
+.lateral a {
+	text-decoration: none;
+	color: black;
+}
+
+.noticia1 {
+	width: 80%;
+	float: right;
+}
+
+.foto-n1 {
+	padding: 20px 10px 20px 20px; 
+}
+
+#titulo-n1 {
+	width: 35%;
+	padding: 10px 10px 20px 20px;
+	line-height: 30px;
+	float: left;
+}
+
+#titulo-n1 h1 {font-size: 1.8em;}
+
+#titulo-n1 h3 {font-size: 1em;}
+
+#p-n1 {
+	border-left: 1.5px dotted #2E2E2E;
+	width: 55%;
+	float: right;
+	text-align: justify;
+	padding: 10px 20px 35px 20px; 
+}
+
+.leer-mas {
+	float: right;
+	width: 10%;
+	text-align: center;
+	margin: 20px 10px 10px 10px;
+	padding: 10px 10px 10px 10px;
+	background-color: #9B0505;
+	color: #FAFAFA;
+}
+
+.leer-mas a {
+	text-decoration: none;
+	color: #FAFAFA;
+}
+
+.leer-mas:hover {
+	background-color: #D80202;
+	color: #FAFAFA;
+}
+
+.noticias-relacionadas {
+	width: 80%;
+	float: right;
+	height: auto;
+
+}
+
+#ps4  {
+	width: 20%;
+	height: 300px;
+	float: left;
+	margin: 20px 20px 20px 80px;
+	padding: 20px 10px 30px 10px; 
+	text-align: center;
+}
+
+#ps4 a {
+	text-decoration: none;
+	color: black;
+}
+
+#nintendo {
+	width: 20%;
+	height: 300px;
+	float: left;
+	margin: 20px 0 20px 90px;
+	padding: 20px 10px 30px 10px; 
+	text-align: center;
+}
+
+#nintendo a {
+	text-decoration: none;
+	color: black;
+}
+
+#PC {
+	width: 20%;
+	height: 300px;
+	float: right;
+	margin: 20px 80px 20px 30px;
+	padding: 20px 10px 30px 10px; 
+	text-align: center;
+}
+
+#PC a {
+	text-decoration: none;
+	color: black;
+}
+
+footer {
+	width: 80%;
+	height: 50px;
+	float: right;
+	padding-top: 30px;
+	background-color: black;
+	text-align: center;
+	color: white; 
+}
+
+@media screen and (max-width: 600px;) {
+
+	.logo {
+		min-width: 250px;
+
+	}
+
+	.lateral i {
+		min-width: 30px;
+	}
+}
